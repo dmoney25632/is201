@@ -1,0 +1,151 @@
+/* style.css — custom stylesheet for Rockets scratch page */
+/* Written from scratch, no Bootstrap */
+
+/* ── BODY ── */
+body {
+  background-color: #0d0d1a;
+  color: #dddddd;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.7;
+}
+
+/* ── NAVBAR ── */
+#navbar {
+  background-color: #08080f;
+  padding: 14px 28px;
+  border-bottom: 2px solid #e07b39;
+}
+
+#navbar a {
+  color: #e07b39;
+  text-decoration: none;
+  margin-right: 22px;
+  font-size: 0.9rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+#navbar a:hover {
+  color: #ffffff;
+}
+
+/* ── HEADER ── */
+#header {
+  background-color: #08080f;
+  color: #ffffff;
+  text-align: center;
+  padding: 60px 20px 40px;
+  border-bottom: 2px solid #e07b39;
+}
+
+#header h1 {
+  font-size: 2.6rem;
+  color: #e07b39;
+  font-family: Georgia, serif;
+  margin-bottom: 10px;
+}
+
+#header p {
+  color: #aaaaaa;
+  font-size: 1.05rem;
+}
+
+/* ── CONTENT DIVS ── */
+#intro,
+#rocket-types,
+#video-section,
+#tableau-section {
+  max-width: 880px;
+  margin: 36px auto;
+  padding: 28px 24px;
+  background-color: #16162a;
+  border: 1px solid #2a2a44;
+  border-radius: 4px;
+}
+
+/* ── SECTION HEADINGS ── */
+#intro h2,
+#rocket-types h2,
+#video-section h2,
+#tableau-section h2 {
+  font-family: Georgia, serif;
+  color: #e07b39;
+  font-size: 1.45rem;
+  border-bottom: 1px solid #333355;
+  padding-bottom: 8px;
+  margin-bottom: 14px;
+}
+
+/* ── ROCKET IMAGE ── */
+#rocket-img {
+  display: block;
+  width: 100%;
+  max-width: 680px;
+  margin: 18px auto;
+  border: 2px solid #333355;
+  border-radius: 4px;
+}
+
+/* ── IMAGE CAPTION ── */
+.caption {
+  text-align: center;
+  font-size: 0.82rem;
+  color: #888888;
+  margin-top: 6px;
+}
+
+/* ── ORDERED AND UNORDERED LISTS ── */
+ol {
+  padding-left: 22px;
+}
+
+ol li {
+  margin-bottom: 14px;
+  font-size: 0.97rem;
+}
+
+ul {
+  margin-top: 6px;
+  padding-left: 18px;
+}
+
+ul li {
+  color: #bbbbbb;
+  font-size: 0.9rem;
+  margin-bottom: 3px;
+}
+
+/* ── VIDEO WRAPPER ── */
+#video-wrap {
+  text-align: center;
+  margin-top: 18px;
+}
+
+#video-wrap iframe {
+  max-width: 100%;
+}
+
+/* ── LINKS ── */
+a {
+  color: #e07b39;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+/* ── FOOTER ── */
+#footer {
+  background-color: #08080f;
+  color: #777777;
+  text-align: center;
+  padding: 20px;
+  margin-top: 50px;
+  border-top: 2px solid #e07b39;
+  font-size: 0.88rem;
+}
