@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Defense Tech – Dayton Runyan</title>
+
+  <!-- Custom stylesheet (no Bootstrap) -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAVIGATION back to professional pages -->
+  <div id="navbar">
+    <a href="index.html">Home</a>
+    <a href="resume.html">Résumé</a>
+    <a href="app.html">Play a Game</a>
+  </div>
+
+  <!-- TOP ANCHOR — used for the on-page anchor link at the bottom -->
+  <a name="top"></a>
+
+  <!-- HEADER -->
+  <div id="header">
+    <h1>Defense Technology</h1>
+    <p>An overview of modern defense tech, autonomous systems, and the future of warfare.</p>
+  </div>
+
+  <!-- INTRO SECTION -->
+  <div id="intro">
+    <h2>Why Defense Tech Matters</h2>
+    <p>
+      Defense technology is one of the fastest-evolving fields in the world. From AI-guided drones
+      to satellite surveillance and cyber warfare, the tools of modern conflict have changed
+      dramatically over the last decade. Understanding these systems is increasingly important —
+      not just for military personnel, but for anyone interested in geopolitics, engineering,
+      or national security policy.
+    </p>
+
+    <!-- IMAGE (not from Bootstrap) -->
+    <!-- Replace with any defense/tech image you find or own -->
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/MQ-9_Reaper_in_flight_%28edit%29.jpg/1280px-MQ-9_Reaper_in_flight_%28edit%29.jpg"
+         alt="MQ-9 Reaper Drone in flight"
+         style="width:100%; max-width:720px; display:block; margin:20px auto; border:2px solid #444;" />
+    <p style="text-align:center; font-size:0.85em; color:#888;">MQ-9 Reaper — a remotely piloted surveillance and strike aircraft. (Public domain image)</p>
+  </div>
+
+  <!-- KEY AREAS SECTION — ordered list with embedded unordered list -->
+  <div id="key-areas">
+    <h2>Key Areas of Modern Defense Technology</h2>
+
+    <ol>
+      <li>
+        <strong>Autonomous Systems &amp; Drones</strong>
+        <ul>
+          <li>Unmanned aerial vehicles (UAVs) for surveillance and strike</li>
+          <li>Ground-based autonomous robots for logistics and combat support</li>
+          <li>Swarm drone technology for coordinated operations</li>
+        </ul>
+      </li>
+      <li>
+        <strong>Cyber Warfare</strong>
+        <ul>
+          <li>Offensive cyber operations targeting critical infrastructure</li>
+          <li>Defensive hardening of military networks</li>
+          <li>Electronic warfare and signal jamming</li>
+        </ul>
+      </li>
+      <li>
+        <strong>Space &amp; Satellite Systems</strong>
+        <ul>
+          <li>GPS and precision navigation</li>
+          <li>Reconnaissance satellites and imagery intelligence (IMINT)</li>
+          <li>Anti-satellite (ASAT) weapons and space denial</li>
+        </ul>
+      </li>
+      <li>
+        <strong>AI &amp; Machine Learning</strong>
+        <ul>
+          <li>Predictive threat analysis and battlefield intelligence</li>
+          <li>Autonomous targeting systems and decision support</li>
+          <li>Logistics optimization for supply chains under pressure</li>
+        </ul>
+      </li>
+      <li>
+        <strong>Hypersonic Weapons</strong>
+        <ul>
+          <li>Missiles traveling at Mach 5+ with maneuvering capability</li>
+          <li>Near-impossible to intercept with current missile defense systems</li>
+          <li>Active development programs in the US, China, and Russia</li>
+        </ul>
+      </li>
+    </ol>
+  </div>
+
+  <!-- YOUTUBE VIDEO SECTION -->
+  <div id="video-section">
+    <h2>The Future of Autonomous Warfare</h2>
+    <p>
+      This video explores how autonomous drones and AI systems are reshaping
+      modern military doctrine and the ethical questions they raise.
+    </p>
+
+    <!-- Embedded YouTube video -->
+    <div style="text-align:center; margin:20px 0;">
+      <iframe
+        width="720"
+        height="405"
+        src="https://www.youtube.com/embed/9CO6M2HsoIA"
+        title="The Future of Autonomous Warfare"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+        style="max-width:100%;">
+      </iframe>
+    </div>
+  </div>
+
+  <!-- TABLEAU EMBED SECTION -->
+  <div id="tableau-section">
+    <h2>Global Military Spending Data</h2>
+    <p>
+      The visualization below shows global military expenditure by country over time,
+      pulled from public SIPRI data. Interact with the chart to explore spending trends.
+    </p>
+
+    <!-- Tableau Public embed — Global Military Spending viz -->
+    <!-- If this viz goes offline, go to public.tableau.com, search "military spending",
+         find any viz, click Share > Copy Embed Code, and replace the code below -->
+    <div class="tableauPlaceholder" style="margin: 20px auto; max-width:900px;">
+      <noscript>
+        <a href="#">
+          <img alt="Military Spending" src="https://public.tableau.com/static/images/Mi/MilitarySpending_16/Dashboard1/1_rss.png" style="border: none" />
+        </a>
+      </noscript>
+      <object class="tableauViz" style="display:none;">
+        <param name="host_url" value="https%3A%2F%2Fpublic.tableau.com%2F" />
+        <param name="embed_code_version" value="3" />
+        <param name="site_root" value="" />
+        <param name="name" value="MilitarySpending_16/Dashboard1" />
+        <param name="tabs" value="no" />
+        <param name="toolbar" value="yes" />
+        <param name="animate_transition" value="yes" />
+        <param name="display_static_image" value="yes" />
+        <param name="display_spinner" value="yes" />
+        <param name="display_overlay" value="yes" />
+        <param name="display_count" value="yes" />
+        <param name="language" value="en-US" />
+      </object>
+    </div>
+    <script type="text/javascript" src="https://public.tableau.com/javascripts/api/viz_v1.js"></script>
+    <script type="text/javascript">
+      var divElement = document.querySelector('.tableauPlaceholder');
+      var vizElement = divElement.getElementsByTagName('object')[0];
+      vizElement.style.width = '100%';
+      vizElement.style.height = '600px';
+    </script>
+
+  </div>
+
+  <!-- FOOTER with back-to-top anchor link -->
+  <div id="footer">
+    <p>
+      Dayton Runyan &nbsp;|&nbsp;
+      <a href="index.html">Back to Main Site</a>
+      &nbsp;|&nbsp;
+      <a href="#top">Back to Top ↑</a>
+    </p>
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,123 @@
+/* style.css — custom stylesheet for Defense Tech scratch page */
+/* No Bootstrap — written from scratch */
+
+/* ── BODY ── */
+body {
+  background-color: #1a1a2e;
+  color: #e0e0e0;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.7;
+}
+
+/* ── NAVBAR ── */
+#navbar {
+  background-color: #0f0f1a;
+  padding: 14px 30px;
+  border-bottom: 2px solid #c8a96e;
+}
+
+#navbar a {
+  color: #c8a96e;
+  text-decoration: none;
+  margin-right: 24px;
+  font-size: 0.95rem;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+#navbar a:hover {
+  color: #ffffff;
+}
+
+/* ── HEADER ── */
+#header {
+  background-color: #0f0f1a;
+  color: #ffffff;
+  text-align: center;
+  padding: 60px 20px 40px;
+  border-bottom: 2px solid #c8a96e;
+}
+
+#header h1 {
+  font-size: 2.8rem;
+  color: #c8a96e;
+  margin-bottom: 10px;
+  font-family: Georgia, serif;
+}
+
+#header p {
+  font-size: 1.1rem;
+  color: #aaaaaa;
+}
+
+/* ── CONTENT DIVS (shared base) ── */
+#intro,
+#key-areas,
+#video-section,
+#tableau-section {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 30px 24px;
+  background-color: #23243a;
+  border: 1px solid #333355;
+  border-radius: 4px;
+}
+
+/* ── HEADINGS inside content divs ── */
+#intro h2,
+#key-areas h2,
+#video-section h2,
+#tableau-section h2 {
+  color: #c8a96e;
+  font-family: Georgia, serif;
+  font-size: 1.5rem;
+  border-bottom: 1px solid #444;
+  padding-bottom: 8px;
+  margin-bottom: 16px;
+}
+
+/* ── ORDERED AND UNORDERED LISTS ── */
+ol {
+  padding-left: 24px;
+}
+
+ol li {
+  margin-bottom: 12px;
+  font-size: 1rem;
+}
+
+ul {
+  padding-left: 20px;
+  margin-top: 6px;
+}
+
+ul li {
+  color: #bbbbbb;
+  font-size: 0.92rem;
+  margin-bottom: 4px;
+}
+
+/* ── LINKS ── */
+a {
+  color: #c8a96e;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+/* ── FOOTER ── */
+#footer {
+  background-color: #0f0f1a;
+  color: #888888;
+  text-align: center;
+  padding: 20px;
+  margin-top: 60px;
+  border-top: 2px solid #c8a96e;
+  font-size: 0.9rem;
+}
